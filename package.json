@@ -1,0 +1,19 @@
+{
+  "name": "SQA Automation",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "postinstall": "playwright install",
+    "test": "playwright test tests/addProducts.spec.ts",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Nayib Ayus <nayib.ayus@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.14"
+  }
+}
